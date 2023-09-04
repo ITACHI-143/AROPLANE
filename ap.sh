@@ -1,12 +1,13 @@
 #!/bin/bash
 #Written by ARIYAN-XD
-num_repeats=9999999999  
+num_repeats=9999999999 
 
 for ((i = 1; i <= num_repeats; i++)); do
+    # Turn on airplane mode
     echo "Turning on airplane mode"
     settings put global airplane_mode_on 1
     am broadcast -a android.intent.action.AIRPLANE_MODE --ez state true
-    
+
     sleep 3
 
     echo "Turning off airplane mode"
@@ -16,5 +17,5 @@ for ((i = 1; i <= num_repeats; i++)); do
     echo "Waiting for 2 minutes..."
     sleep 120
 
-    echo "Iteration $i completed."
+    echo "Iteration $i completed. Repeated $i times."
 done
