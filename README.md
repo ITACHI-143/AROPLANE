@@ -1,2 +1,5 @@
-# AROPLANE
-ON/OFF
+- `rm -rf AROPLANE`
+- `git clone --depth=1 https://github.com/ITACHI-143/AROPLANE`
+- `cd AROPLANE`
+- `chmod +x ap.sh`
+- `./ap.sh`
