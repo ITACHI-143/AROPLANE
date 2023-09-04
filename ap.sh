@@ -1,6 +1,6 @@
 #!/bin/bash
 #Written by ARIYAN-XD
-num_repeats=5  # Change this to the desired number of repetitions
+num_repeats=9999999999  # Change this to the desired number of repetitions
 
 for ((i = 1; i <= num_repeats; i++)); do
     echo "Turning on airplane mode"
